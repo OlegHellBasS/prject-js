@@ -1,0 +1,27 @@
+@import "_base.css";
+@import './blocks/_footer.css';
+
+
+#post-info {
+  background-color: #565454;
+  padding: 20px;
+  width: 1140px;
+  margin: 40px auto;
+  min-height: 104.889px;
+}
+
+#comments-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0 auto;
+  min-height: 410.667px;
+}
+
+.comment {
+  background-color: #565454;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(25% - 20px);
+}

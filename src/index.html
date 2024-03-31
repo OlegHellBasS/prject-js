@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="heder__row">
+          <h1 class="header__title">{JSON} Placeholder</h1>
+          <h2 class="header__subtitle">
+            Free fake API for testing and prototyping. <br />
+            Powered by JSON Server + LowDB. Tested with XV.
+          </h2>
+        </div>
+        <nav class="header__nav">
+          <a href="#" class="header__linck header__linck-active" data-index="0"
+            >HOME</a
+          >
+          <a href="#" class="header__linck" data-index="1">FAKE API</a>
+          <a href="#" class="header__linck" data-index="2">CONTACT</a>
+          <a href="#" class="header__linck" data-index="3">ABOUT ME</a>
+        </nav>
+      </div>
+    </header>
+    <section class="users" data-index="0">
+      <div class="container">
+        <div class="users__row">
+         
+        </div>
+      </div>
+    </section>
+    <section class="fake-api" data-index="1">
+      <div class="container">
+        <div class="fake-api__header">
+          <div class="fake-api__logo">
+            <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a>
+          </div>
+          <nav class="fake-api__nav">
+            <a href="https://jsonplaceholder.typicode.com/guide/">Guide</a>
+            <a href="https://github.com/sponsors/typicode">
+              Sponsor this project</a
+            >
+            <a href="https://blog.typicode.com/"> Blog</a>
+            <a
+              href="
+            My JSON Server"
+              >My JSON Server</a
+            >
+          </nav>
+        </div>
+        <div class="fake-api__content">
+          <h2 class="fake-api__title">Guide</h2>
+          <div class="fake-api__desc">
+            Below you'll find examples using
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+              >Fetch API</a
+            >
+            but you can JSONPlaceholder with any other language.
+          </div>
+          <div class="fake-api__desc">
+            You can copy paste the code in your browser console to quickly test
+            JSONPlaceholder.
+          </div>
+          <h3 class="fake-api__subtitle">Getting a resource</h3>
+          <div class="fake-api__resource">
+            <div>
+              fetch(<span class="fake-api__resource-elow"
+                >'https://jsonplaceholder.typicode.com/posts/1'</span
+              >)
+            </div>
+            <div>
+              <span class="fake-api__resource-blue">.then</span>((response) =>
+              response.<span class="fake-api__resource-blue">json</span>())
+            </div>
+            <div>
+              <span class="fake-api__resource-blue">.then</span>((json) =>
+              console.<span class="fake-api__resource-blue">log</span>(json));
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" data-index="2">
+      <div class="container">
+        <h2 class="contact__title">GET IN TOUCH</h2>
+        <div class="contact__row">
+          <div class="contact__address">
+            <div class="contact__icon">
+              <img src="./icons/address.svg" alt="address" />
+            </div>
+            <h3 class="contact__subtitle">ADDRESS</h3>
+            <h4 class="contact__under-title">Weifield Group Contracting</h4>
+            <div class="contact__desc">
+              6950 S. Jordan Road <br />
+              Centennial, CO 80112
+            </div>
+          </div>
+          <div class="contact__address">
+            <div class="contact__icon">
+              <img src="./icons/phone.svg" alt="phone" />
+            </div>
+            <h3 class="contact__subtitle">PHONE</h3>
+            <h4 class="contact__under-title">Weifield Group Contracting</h4>
+            <div class="contact__desc">877.WEIFIELD phone</div>
+          </div>
+          <div class="contact__address">
+            <div class="contact__icon">
+              <img src="./icons/email.svg" alt="email" />
+            </div>
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <h4 class="contact__under-title">Request for Proposal</h4>
+            <div class="contact__desc">Info@weifieldgroup.com</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-me" data-index="3">
+      <div class="container">
+        <h2 class="about-me__title">Skills</h2>
+        <h3 class="about-me__subtitle">What I use at work</h3>
+        <div class="about-me__row">
+          <div class="skills">
+            <img
+              src="./icons/skills/html5.svg"
+              alt="html"
+              class="skills__icon"
+            />
+            <h4 class="skills__title">HTML5</h4>
+            <div class="skills__desc">
+              It is he who creates the framework of your site or application,
+              and the fifth version will allow me to create a more SEO-optimized
+              structure of your product
+            </div>
+          </div>
+          <div class="skills">
+            <img
+              src="./icons/skills/css3.svg"
+              alt="css3"
+              class="skills__icon"
+            />
+            <h4 class="skills__title">CSS3</h4>
+            <div class="skills__desc">
+              This style language allows me to create absolutely any appearance
+              of your site or application. Everything is limited only by your
+              imagination!
+            </div>
+          </div>
+          <div class="skills">
+            <img
+              src="./icons/skills/js.svg"
+              alt="Java Script"
+              class="skills__icon"
+            />
+            <h4 class="skills__title">Java Script</h4>
+            <div class="skills__desc">
+              This programming language allows you to animate anything: sliders,
+              windows, prompts, tabs, receiving data from the server and much
+              more
+            </div>
+          </div>
+          <div class="skills">
+            <img
+              src="./icons/skills/react.svg"
+              alt="React"
+              class="skills__icon"
+            />
+            <h4 class="skills__title">React</h4>
+            <div class="skills__desc">
+              This library allows you to create web applications. We can create
+              the most interactive product exactly for your purposes
+            </div>
+          </div>
+          <div class="skills">
+            <img
+              src="./icons/skills/node.js.svg"
+              alt="node"
+              class="skills__icon skills__icon-width"
+            />
+            <h4 class="skills__title">NODE JS</h4>
+            <div class="skills__desc">
+              This platform allows you to create a backend for your product -
+              "brains" that will perform actions that the user does not see
+            </div>
+          </div>
+          <div class="skills">
+            <img
+              src="./icons/skills/mongo.db.svg"
+              alt="Mongo.db"
+              class="skills__icon skills__icon-width"
+            />
+            <h4 class="skills__title">Mongo.db</h4>
+            <div class="skills__desc">
+              It is he who creates the framework of your site or application,
+              and the fifth version will allow me to create a more SEO-optimized
+              structure of your product
+            </div>
+          </div>
+        </div>
+        <div class="rectangles">
+          <div class="container">
+            <div class="rectangles__row">
+              <div class="rectangle">
+                <div class="rectangle__row">
+                  <h2 class="rectangle__title">Creation of sites</h2>
+                  <div class="rectangle__percent">100%</div>
+                </div>
+                <div class="rectangle__line">
+                  <div class="rectangle__scale" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="rectangle">
+                <div class="rectangle__row">
+                  <h2 class="rectangle__title">Creating applications</h2>
+                  <div class="rectangle__percent">85%</div>
+                </div>
+                <div class="rectangle__line">
+                  <div class="rectangle__scale" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="rectangle">
+                <div class="rectangle__row">
+                  <h2 class="rectangle__title">Work with data</h2>
+                  <div class="rectangle__percent">90%</div>
+                </div>
+                <div class="rectangle__line">
+                  <div class="rectangle__scale" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="rectangle">
+                <div class="rectangle__row">
+                  <h2 class="rectangle__title">Creativity</h2>
+                  <div class="rectangle__percent">80%</div>
+                </div>
+                <div class="rectangle__line">
+                  <div class="rectangle__scale" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="rectangle">
+                <div class="rectangle__row">
+                  <h2 class="rectangle__title">Design creation</h2>
+                  <div class="rectangle__percent">90%</div>
+                </div>
+                <div class="rectangle__line">
+                  <div class="rectangle__scale" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="rectangle">
+                <div class="rectangle__row">
+                  <h2 class="rectangle__title">Soft skills</h2>
+                  <div class="rectangle__percent">95%</div>
+                </div>
+                <div class="rectangle__line">
+                  <div class="rectangle__scale" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>© 2024 Free fake API for testing and prototyping.</p>
+    </footer>
+    <script src="./js/payload/photoArray.js" defer></script>
+    <script src="./js/modules/getData.js"></script>
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

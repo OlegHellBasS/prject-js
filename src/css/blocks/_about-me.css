@@ -1,0 +1,49 @@
+.about-me {
+  padding-top: 120px;
+  display: none;
+}
+.about-me__title {
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.about-me__subtitle {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.about-me__row {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding-top: 90px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.skills {
+  padding: 30px;
+  /* border: 1px solid #000; */
+  width: 270px;
+  min-height: 270px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.skills__icon {
+  width: 45.775px;
+  height: 65px;
+  margin-bottom: 20px;
+}
+.skills__icon-width {
+  width: 100px;
+  
+}
+.skills__title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.skills__desc {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+}

@@ -1,0 +1,9 @@
+@import "./_base.css";
+@import "./blocks/_header.css";
+@import "./blocks/_users.css";
+@import "./blocks/_fake-api.css";
+@import "./blocks/_contact.css";
+@import "./blocks/_about-me.css";
+@import './blocks/_rectangles.css';
+@import './blocks/_footer.css';
+@import './libs/_modal.css'

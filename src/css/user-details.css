@@ -1,0 +1,5 @@
+@import './_base.css';
+@import './blocks/_details.css';
+@import './libs/_modal.css';
+@import './blocks/_posts.css';
+@import './blocks/_footer.css';

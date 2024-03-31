@@ -1,0 +1,44 @@
+.contact {
+  padding-top: 90px;
+  display: none;
+}
+
+
+.contact__title {
+  text-align: center;
+  font-size: 48px;
+}
+
+.contact__row {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+.contact__icon {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.contact__icon:hover{
+    background: rgba(102, 102, 102, 0.7);
+    transition: 400ms ease;
+    cursor: pointer;
+}
+.contact__subtitle {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact__under-title {
+  text-align: center;
+  padding-top: 10px;
+}
+.contact__desc {
+  text-align: center;
+  padding-top: 10px;
+}

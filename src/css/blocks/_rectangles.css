@@ -1,0 +1,43 @@
+.rectangles {
+  padding-top: 120px;
+}
+.rectangles__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.rectangle {
+  width: 30%;
+}
+.rectangle__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rectangle__title {
+  font-weight: 700;
+  line-height: normal;
+}
+.rectangle__percent {
+  font-weight: 600;
+}
+.rectangle__line {
+  margin-top: 10px;
+  background: #ffa501;
+  height: 50%;
+  border-radius: 4px;
+  max-width: 100%;
+}
+.rectangle__line {
+  height: 14px;
+  width: 100%;
+  background: #e8e4de;
+  border-radius: 4px;
+}
+.rectangle__scale {
+  background: #ffa501;
+  height: 100%;
+  border-radius: 4px;
+  max-width: 100%;
+}
